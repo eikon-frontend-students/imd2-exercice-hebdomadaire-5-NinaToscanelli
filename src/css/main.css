@@ -12,3 +12,75 @@ img,
 video {
   display: block;
 }
+
+.calendar {
+  display: flex;
+  width: 1728px;
+  height: 1117px;
+  padding: 50px 1104px 938px 50px;
+  align-items: center;
+  background: #fff;
+}
+
+.wrapper {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-radius: 20px;
+  background: #ff844c;
+}
+
+.day {
+  display: flex;
+  padding: 18px;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  border-radius: 24px;
+}
+
+.number p {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 24px; /* 68.571% */
+  text-transform: uppercase;
+}
+
+.noun p {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Open Sans";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 24px; /* 104.348% */
+}
+
+.Day {
+  display: flex;
+  padding: 18px;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  border-radius: 24px;
+  background: #fff;
+}
+
+.Number p {
+  color: #000;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 24px; /* 68.571% */
+  text-transform: uppercase;
+}
+
+.Noun p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Open Sans";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 24px; /* 104.348% */
+}
